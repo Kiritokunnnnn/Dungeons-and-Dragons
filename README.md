@@ -50,5 +50,5 @@ g++ -o dungeon_game main.cpp GameManager.cpp Dungeon.cpp Room.cpp Monster.cpp Mo
 Pull requests are welcome! If you have suggestions or find any issues, feel free to **open an issue**.
 
 ## 📧 Contact
-For any questions or feedback, reach out at [your.email@example.com](mailto:your.email@example.com).
+For any questions or feedback, reach out at [minhkhang.tr04@gmail.com](mailto:minhkhang.tr04@gmail.com).
 
