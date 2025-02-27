@@ -1,47 +1,77 @@
-Project Description: Dungeon Adventure (C++)
+Dungeon Adventure (C++)
 
-Overview
+🎮 Overview
 
-Dungeon Adventure is a console-based dungeon crawler game developed in C++. The game offers an interactive experience where players explore randomly generated dungeons, fight monsters, collect items, and upgrade their abilities. The game incorporates inventory management, procedural dungeon generation, and a loot system, providing a dynamic and engaging gameplay experience.
+Dungeon Adventure is a console-based dungeon crawler game developed in C++. The game features turn-based combat, procedural dungeon generation, and an inventory system, providing an engaging RPG experience.
 
-Key Features
+✨ Features
 
-Turn-Based Combat System 
-– Players can engage in battles against monsters using attack and defense mechanics.
+Turn-Based Combat System – Players fight against monsters using attack and defense mechanics.
 
-Inventory System 
-– Players can collect and manage items such as potions, weapons, and armor.
+Procedural Dungeon Generation – Each playthrough generates a unique dungeon layout.
 
-Procedural Dungeon Generation 
-– Every game session generates a unique dungeon layout, enhancing replayability.
+Inventory System – Players can collect and manage items like potions, weapons, and armor.
 
-Loot System 
-– Defeated monsters drop random items that players can collect and use.
+Loot System – Defeated monsters drop random items.
 
-Upgrade System 
-– Players can enhance their health and attack power by finding upgrade rooms.
+Upgrade System – Players can enhance their health and attack power by finding upgrade rooms.
 
-Mini-Map Display 
-– A simplified representation of the dungeon to help players navigate.
+Mini-Map Display – Helps players navigate through the dungeon.
 
-Technologies Used
+🛠️ Technologies Used
 
-C++ – Core language for game development
+C++ – Core programming language.
 
-Object-Oriented Programming (OOP) 
-– Used to structure the game with classes like Monk, Monster, Dungeon, Room, and Inventory
+Object-Oriented Programming (OOP) – Used for structuring game logic.
 
-STL (Standard Template Library) 
-– Utilized vector, map, and set for efficient data management
+STL (Standard Template Library) – Utilized vector, map, and set for data management.
 
-Randomization (rand()) 
-– Used to generate procedural dungeons and loot drops
+Randomization (rand()) – Generates procedural dungeons and loot drops.
 
-Future Enhancements
+🚀 Installation & Setup
 
-Expand the inventory system with more item types
-Introduce new enemy types and boss fights
-Implement a graphical interface using SFML or SDL2
-Add multiplayer functionality
+Clone the repository:
 
-This project demonstrates strong skills in C++ programming, object-oriented design, and game logic implementation, making it an excellent addition to my portfolio.
+git clone https://github.com/your-username/Dungeon-Adventure.git
+cd Dungeon-Adventure
+
+Compile the project (using g++ or any C++ compiler):
+
+g++ -o dungeon_game main.cpp GameManager.cpp Dungeon.cpp Room.cpp Monster.cpp Monk.cpp Inventory.cpp Item.cpp -std=c++11
+
+Run the game:
+
+./dungeon_game
+
+🎲 How to Play
+
+Start the game and explore the dungeon.
+
+Choose actions in combat: Attack or Guard.
+
+Collect and use items to strengthen your character.
+
+Find the Treasure Room to win the game!
+
+📌 Future Enhancements
+
+More item types (weapons, magic scrolls, armor, etc.).
+
+Stronger enemies and boss battles.
+
+Graphical user interface (SFML or SDL2).
+
+Multiplayer mode with online gameplay.
+
+📜 License
+
+This project is open-source and available under the MIT License.
+
+🤝 Contributing
+
+Pull requests are welcome! If you have suggestions or find any issues, feel free to open an issue.
+
+📧 Contact
+
+For any questions or feedback, reach out at your.email@example.com.
+
