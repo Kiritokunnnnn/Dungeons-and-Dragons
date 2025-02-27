@@ -20,13 +20,13 @@ Dungeon Adventure is a **console-based dungeon crawler game** developed in **C++
 ## 🚀 Installation & Setup
 ### Clone the repository:
 ```bash
-git clone [https://github.com/your-username/Dungeon-Adventure.git](https://github.com/Kiritokunnnnn/Dungeons-and-Dragons.git)
+git clone https://github.com/Kiritokunnnnn/Dungeons-and-Dragons.git
 cd Dungeon-Adventure
 ```
 
 ### Compile the project (using g++ or any C++ compiler):
 ```bash
-g++ -o dungeon_game main.cpp GameManager.cpp Dungeon.cpp Room.cpp Monster.cpp Monk.cpp Inventory.cpp Item.cpp -std=c++11
+g++ -o dungeon_game main.cpp GameManager.cpp Dungeon.cpp Room.cpp Monster.cpp Monk.cpp 
 ```
 
 ### Run the game:
