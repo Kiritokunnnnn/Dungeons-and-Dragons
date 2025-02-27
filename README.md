@@ -46,9 +46,6 @@ g++ -o dungeon_game main.cpp GameManager.cpp Dungeon.cpp Room.cpp Monster.cpp Mo
 - **Graphical user interface** using **SFML or SDL2**.
 - **Multiplayer mode** with online gameplay.
 
-## 📜 License
-This project is **open-source** and available under the **MIT License**.
-
 ## 🤝 Contributing
 Pull requests are welcome! If you have suggestions or find any issues, feel free to **open an issue**.
 
