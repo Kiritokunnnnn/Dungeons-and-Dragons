@@ -1,77 +1,57 @@
-Dungeon Adventure (C++)
+# Dungeon Adventure (C++)
 
-🎮 Overview
+## 🎮 Overview
+Dungeon Adventure is a **console-based dungeon crawler game** developed in **C++**. The game features **turn-based combat, procedural dungeon generation, and an inventory system**, providing an engaging RPG experience.
 
-Dungeon Adventure is a console-based dungeon crawler game developed in C++. The game features turn-based combat, procedural dungeon generation, and an inventory system, providing an engaging RPG experience.
+## ✨ Features
+- **Turn-Based Combat System** – Players fight against monsters using attack and defense mechanics.
+- **Procedural Dungeon Generation** – Each playthrough generates a unique dungeon layout.
+- **Inventory System** – Players can collect and manage items like potions, weapons, and armor.
+- **Loot System** – Defeated monsters drop random items.
+- **Upgrade System** – Players can enhance their health and attack power by finding upgrade rooms.
+- **Mini-Map Display** – Helps players navigate through the dungeon.
 
-✨ Features
+## 🛠️ Technologies Used
+- **C++** – Core programming language.
+- **Object-Oriented Programming (OOP)** – Used for structuring game logic.
+- **STL (Standard Template Library)** – Utilized `vector`, `map`, and `set` for data management.
+- **Randomization (`rand()`)** – Generates procedural dungeons and loot drops.
 
-Turn-Based Combat System – Players fight against monsters using attack and defense mechanics.
-
-Procedural Dungeon Generation – Each playthrough generates a unique dungeon layout.
-
-Inventory System – Players can collect and manage items like potions, weapons, and armor.
-
-Loot System – Defeated monsters drop random items.
-
-Upgrade System – Players can enhance their health and attack power by finding upgrade rooms.
-
-Mini-Map Display – Helps players navigate through the dungeon.
-
-🛠️ Technologies Used
-
-C++ – Core programming language.
-
-Object-Oriented Programming (OOP) – Used for structuring game logic.
-
-STL (Standard Template Library) – Utilized vector, map, and set for data management.
-
-Randomization (rand()) – Generates procedural dungeons and loot drops.
-
-🚀 Installation & Setup
-
-Clone the repository:
-
+## 🚀 Installation & Setup
+### Clone the repository:
+```bash
 git clone https://github.com/your-username/Dungeon-Adventure.git
 cd Dungeon-Adventure
+```
 
-Compile the project (using g++ or any C++ compiler):
-
+### Compile the project (using g++ or any C++ compiler):
+```bash
 g++ -o dungeon_game main.cpp GameManager.cpp Dungeon.cpp Room.cpp Monster.cpp Monk.cpp Inventory.cpp Item.cpp -std=c++11
+```
 
-Run the game:
-
+### Run the game:
+```bash
 ./dungeon_game
+```
 
-🎲 How to Play
+## 🎲 How to Play
+- Start the game and explore the dungeon.
+- Choose actions in combat: **Attack** or **Guard**.
+- Collect and use items to strengthen your character.
+- Find the **Treasure Room** to win the game!
 
-Start the game and explore the dungeon.
+## 📌 Future Enhancements
+- More item types (**weapons, magic scrolls, armor, etc.**).
+- Stronger enemies and **boss battles**.
+- **Graphical user interface** using **SFML or SDL2**.
+- **Multiplayer mode** with online gameplay.
 
-Choose actions in combat: Attack or Guard.
+## 📜 License
+This project is **open-source** and available under the **MIT License**.
 
-Collect and use items to strengthen your character.
+## 🤝 Contributing
+Pull requests are welcome! If you have suggestions or find any issues, feel free to **open an issue**.
 
-Find the Treasure Room to win the game!
-
-📌 Future Enhancements
-
-More item types (weapons, magic scrolls, armor, etc.).
-
-Stronger enemies and boss battles.
-
-Graphical user interface (SFML or SDL2).
-
-Multiplayer mode with online gameplay.
-
-📜 License
-
-This project is open-source and available under the MIT License.
-
-🤝 Contributing
-
-Pull requests are welcome! If you have suggestions or find any issues, feel free to open an issue.
-
-📧 Contact
-
-For any questions or feedback, reach out at your.email@example.com.
+## 📧 Contact
+For any questions or feedback, reach out at [your.email@example.com](mailto:your.email@example.com).
 
